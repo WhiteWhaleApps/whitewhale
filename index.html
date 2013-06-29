@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Page Title</title>
+
+<!--960-->
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/text.css" />
+<link rel="stylesheet" href="css/960_24_col.css" />
+<link rel="stylesheet" href="css/demo.css" />
+
+<!--Products LightBox-->    
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script>
+	!window.jQuery && document.write('<script src="fancybox/jquery-1.4.3.min.js"><\/script>');
+</script>
+<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<script type="text/javascript">
+	$(document).ready(function() {
+		
+
+		$("#box1").fancybox({
+			'titlePosition'		: 'inside',
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none'
+		});
+		$("#box2").fancybox({
+			'titlePosition'		: 'inside',
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none'
+		});
+		$("#box3").fancybox({
+			'titlePosition'		: 'inside',
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none'
+		});
+		$("#box4").fancybox({
+			'titlePosition'		: 'inside',
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none'
+		});
+		$("#box5").fancybox({
+			'titlePosition'		: 'inside',
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none'
+		});
+		$("#box6").fancybox({
+			'titlePosition'		: 'inside',
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none'
+		});
+	});
+</script>
+
+<!--Nav Menu-->
+<script type="text/javascript" src="navMenu/jquery.hoverIntent.minified.js"></script>
+<script type="text/javascript" src="navMenu/js.js"></script>
+<link href="navMenu/style.css" rel="stylesheet" type="text/css" />
+
+
+<!--Form Fade-->
+<script src="js/jquery.infieldlabel.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+		$(function(){ $("label").inFieldLabels(); });
+	</script>
+	<!--[if lte IE 6]>
+		<style type="text/css" media="screen">
+			form label {
+					background: #fff;
+			}
+		</style>
+	<![endif]-->
+
+</head>
+
+<body>
+
+<div class="container_24">
+	
+    <!--Start .upperSection-->
+    <div class="grid_24 upperSection">
+        <div class="grid_4 logo omega alpha">
+            <a href="javascript:void();"><img src="images/logo.jpg"></a>
+        </div>
+        
+        <div class="grid_20 omega alpha">
+            <div class="grid_17 omega alpha topLinks">
+                <a href="#">Contact Us</a>
+                <a>|</a>
+                <a href="#">Store Locator</a>
+                <a>|</a>
+                <a href="#">Support</a>
+                <a>|</a>
+                <a href="#">Media Center</a>
+                <a>|</a>
+                <a href="#">Home</a>
+            </div>
+        
+            <div class="grid_3 omega alpha lang">
+                <form>
+                    <select>
+                        <option>Opt1</option>
+                        <option>Opt2</option>
+                    </select>
+                </form>
+            </div>
+            
+            <div class="grid_20 omega alpha navMenu">
+               <ul id="topnav">
+                    
+                   
+                    <li>
+                        <a href="#"><span>Wet Line</span></a>
+                        <div class="sub">
+                            <div class="row">
+                                <ul class="firstColumn">
+                                    <li><h2>Deal of the Week</h2>
+                                    	
+                                        <img src="images/logo.jpg" />
+                                    
+                                    </li>
+                                    <li><a href="#">Navigation Link</a></li>
+                                    <li><a href="#">Navigation Link</a></li>
+                                    <li><a href="#">Navigation Link</a></li>
+                                    <li><a href="#" class="lastItem">Navigation</a></li>
+                                </ul>
+                                <ul>
+                                    <li><h2>Deal of the Week</h2>
+                                    	
+                                        <img src="images/logo.jpg" />
+                                    
+                                    </li>
+                                    <li><a href="#">Navigation Link</a></li>
+                                    <li><a href="#">Navigation Link</a></li>
+                                    <li><a href="#">Navigation Link</a></li>
+                                    <li><a href="#" class="lastItem">Navigation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Home Life</a>
+                    </li>
+                    <li>
+                        <a href="#"> Air Conditioning </a>
+                    </li>
+                    <li>
+                        <a href="#"> Kitchen Appliance</a>
+                    </li>                    
+                    <li>
+                    	<a href="#">Small Appliance</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--End .upperSection-->
+    
+    <div class="clear"></div>
+
+
+    <!--Start Header-->
+    <div class="grid_24 header">
+        <img src="images/header.jpg" />
+    </div>
+    <!--End Header-->
+    
+    
+    
+    <!--Start Breadcrumb And Products Search-->
+    <div class="grid_19 currentPage">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Products</a>
+        <a href="#">Products</a>
+    </div>
+    <div class="grid_5 searchProducts">
+        <form action="index.html" method="get" accept-charset="utf-8">
+		<fieldset>
+			<p>
+				<label for="search">Search</label><br />
+				<input type="text" name="search" value="" id="search">
+			</p>
+			
+		</fieldset>
+	</form>
+    </div>
+    <!--End Breadcrumb And Products Search-->
+    
+    <div class="clear"></div>
+
+
+    <!--Start Products-->
+    <h1>New Products</h1>
+    
+    <div class="grid_4 newProducts">
+    
+        <img src="images/p1.jpg">
+        
+        <span class="grid_4 alpha omega">
+            Titlte lmk 9986
+        </span>
+        
+        <p>
+            Titlte lorem ipsum dolor Titlte lorem ipsum dolor is 
+        </p>
+        
+        <div class="icons">
+            <a href="#" class="ico1">1</a>
+            <a href="#prod1" class="ico3" id="box1">2</a>
+            <a href="#" class="ico2">3</a>
+        </div>
+    
+        <div style="display:none;">
+            <div id="prod1" style="width:680px;height:320px;">
+            	
+                <h1 class="lightBox">WD-107777HME, Washing Machine</h1>
+                
+                
+                <div class="lightBoxData">
+                	<p class="info1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae neque auctor blandit.
+                <br /><br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae neque auctor blandit.
+                </p>
+                
+                <div class="alignPara">
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+               
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+                    
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+               
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+                    
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+               
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+                    
+                </div>
+                
+                
+                
+                <a href="#" class="addCart">Add To Cart</a>
+                <a href="#" class="exploreProduct">Explore Product</a>
+                </div>
+                    
+                <div class="lightboxProdImg">
+                    <img src="images/lightbxpic.jpg" />
+                </div>
+                
+            </div>
+        </div>
+        
+    </div> 
+    
+    <div class="grid_4 newProducts">
+    
+        <img src="images/p1.jpg">
+        
+        <span class="grid_4 alpha omega">
+            Titlte lmk 9986
+        </span>
+        
+        <p>
+            Titlte lorem ipsum dolor Titlte lorem ipsum dolor is 
+        </p>
+        
+        <div class="icons">
+            <a href="#" class="ico1">1</a>
+            <a href="#prod2" class="ico3" id="box2">2</a>
+            <a href="#" class="ico2">3</a>
+        </div>
+    
+        <div style="display:none;">
+            <div id="prod2" style="width:680px;height:320px;">
+            	
+                <h1 class="lightBox">WD-107777HME, Washing Machine</h1>
+                
+                
+                <div class="lightBoxData">
+                	<p class="info1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae neque auctor blandit.
+                <br /><br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae neque auctor blandit.
+                </p>
+                
+                <div class="alignPara">
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+               
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+                </div>
+                
+                
+                
+                <a href="#" class="addCart">Add To Cart</a>
+                <a href="#" class="exploreProduct">Explore Product</a>
+                </div>
+                    
+                <div class="lightboxProdImg">
+                    <img src="images/lightbxpic.jpg" />
+                </div>
+                
+            </div>
+        </div>
+        
+    </div> 
+    
+    <div class="grid_4 newProducts">
+    
+        <img src="images/p1.jpg">
+        
+        <span class="grid_4 alpha omega">
+            Titlte lmk 9986
+        </span>
+        
+        <p>
+            Titlte lorem ipsum dolor Titlte lorem ipsum dolor is 
+        </p>
+        
+        <div class="icons">
+            <a href="#" class="ico1">1</a>
+            <a href="#prod3" class="ico3" id="box3">2</a>
+            <a href="#" class="ico2">3</a>
+        </div>
+    
+        <div style="display:none;">
+            <div id="prod3" style="width:680px;height:320px;">
+            	
+                <h1 class="lightBox">WD-107777HME, Washing Machine</h1>
+                
+                
+                <div class="lightBoxData">
+                	<p class="info1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae neque auctor blandit.
+                <br /><br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae neque auctor blandit.
+                </p>
+                
+                <div class="alignPara">
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+               
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+                </div>
+                
+                
+                
+                <a href="#" class="addCart">Add To Cart</a>
+                <a href="#" class="exploreProduct">Explore Product</a>
+                </div>
+                    
+                <div class="lightboxProdImg">
+                    <img src="images/lightbxpic.jpg" />
+                </div>
+                
+            </div>
+        </div>
+        
+    </div> 
+    
+    <div class="grid_4 newProducts">
+    
+        <img src="images/p1.jpg">
+        
+        <span class="grid_4 alpha omega">
+            Titlte lmk 9986
+        </span>
+        
+        <p>
+            Titlte lorem ipsum dolor Titlte lorem ipsum dolor is 
+        </p>
+        
+        <div class="icons">
+            <a href="#" class="ico1">1</a>
+            <a href="#prod4" class="ico3" id="box4">2</a>
+            <a href="#" class="ico2">3</a>
+        </div>
+    
+        <div style="display:none;">
+            <div id="prod4" style="width:680px;height:320px;">
+            	
+                <h1 class="lightBox">WD-107777HME, Washing Machine</h1>
+                
+                
+                <div class="lightBoxData">
+                	<p class="info1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae neque auctor blandit.
+                <br /><br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae neque auctor blandit.
+                </p>
+                
+                <div class="alignPara">
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+               
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+                </div>
+                
+                
+                
+                <a href="#" class="addCart">Add To Cart</a>
+                <a href="#" class="exploreProduct">Explore Product</a>
+                </div>
+                    
+                <div class="lightboxProdImg">
+                    <img src="images/lightbxpic.jpg" />
+                </div>
+                
+            </div>
+        </div>
+        
+    </div> 
+    
+    <div class="grid_4 newProducts">
+    
+        <img src="images/p1.jpg">
+        
+        <span class="grid_4 alpha omega">
+            Titlte lmk 9986
+        </span>
+        
+        <p>
+            Titlte lorem ipsum dolor Titlte lorem ipsum dolor is 
+        </p>
+        
+        <div class="icons">
+            <a href="#" class="ico1">1</a>
+            <a href="#prod5" class="ico3" id="box5">2</a>
+            <a href="#" class="ico2">3</a>
+        </div>
+    
+        <div style="display:none;">
+            <div id="prod5" style="width:680px;height:320px;">
+            	
+                <h1 class="lightBox">WD-107777HME, Washing Machine</h1>
+                
+                
+                <div class="lightBoxData">
+                	<p class="info1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae neque auctor blandit.
+                <br /><br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae neque auctor blandit.
+                </p>
+                
+                <div class="alignPara">
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+               
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+                </div>
+                
+                
+                
+                <a href="#" class="addCart">Add To Cart</a>
+                <a href="#" class="exploreProduct">Explore Product</a>
+                </div>
+                    
+                <div class="lightboxProdImg">
+                    <img src="images/lightbxpic.jpg" />
+                </div>
+                
+            </div>
+        </div>
+        
+    </div> 
+    
+    <div class="grid_4 newProducts">
+    
+        <img src="images/p1.jpg">
+        
+        <span class="grid_4 alpha omega">
+            Titlte lmk 9986
+        </span>
+        
+        <p>
+            Titlte lorem ipsum dolor Titlte lorem ipsum dolor is 
+        </p>
+        
+        <div class="icons">
+            <a href="#" class="ico1">1</a>
+            <a href="#prod6" class="ico3" id="box6">2</a>
+            <a href="#" class="ico2">3</a>
+        </div>
+    
+        <div style="display:none;">
+            <div id="prod6" style="width:680px;height:320px;">
+            	
+                <h1 class="lightBox">WD-107777HME, Washing Machine</h1>
+                
+                
+                <div class="lightBoxData">
+                	<p class="info1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae neque auctor blandit.
+                <br /><br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae neque auctor blandit.
+                </p>
+                
+                <div class="alignPara">
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+               
+                    <p class="info2">
+                        <img src="images/logo.jpg" />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tellus vitae.
+                    </p>
+                </div>
+                
+                
+                
+                <a href="#" class="addCart">Add To Cart</a>
+                <a href="#" class="exploreProduct">Explore Product</a>
+                </div>
+                    
+                <div class="lightboxProdImg">
+                    <img src="images/lightbxpic.jpg" />
+                </div>
+                
+            </div>
+        </div>
+        
+    </div> 
+    
+  
+    
+    
+    <!--End Products-->
+    
+    
+    <div class="grid_24"><br /><img src="images/sep.jpg" /></div>
+	<div class="clear"></div>
+    
+    <!--Start Welcome, News And Contacts-->
+    
+    <div class="grid_8 welcomeMessage">
+    	<h1>Welcome to white whale</h1>
+        <img src="images/welcome.jpg" />
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed ante dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra.
+        </p>
+        
+        <a href="#">Read More</a>
+    </div>
+    
+    <div class="grid_7 prefix_1 latestNews">
+    	<h1>Latest News</h1>
+        <p>Title Goes here</p>
+        <span>10/10/2011</span>
+        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed ante dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</a>
+        
+        <p>Title Goes here</p>
+        <span>10/10/2011</span>
+        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed ante dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</a>
+    </div>
+    
+    <div class="grid_7 prefix_1">
+    	<a href="#" class="c1">c1</a>
+        <a href="#" class="c2">c2</a>
+        <a href="#" class="c3">c3</a>
+    </div>
+    
+    <!--End Welcome, News And Contacts-->
+
+
+<div class="clear"></div>
+</div>
+<!-- end .container_24 -->
+
+<!--Start Footer-->
+<div class="footer">
+	<div class="container_24">
+    	<div class="grid_24">
+        	<a href="#" class="first">home</a>
+            <a href="#">kitchen</a>
+            <a href="#">home life</a>
+            <a href="#">air conditioning</a>
+            <a href="#">kitchen appliances</a>
+            <a href="#">small appliances</a>
+            <a href="#">media center</a>
+            <a href="#">support</a>
+            <a href="#">contacts</a>
+            <a href="#">site map</a>
+            <a href="#" class="last">terms of use</a>
+        </div>
+        
+        <div class="grid_21">White whale | 2011 All rights reserved</div>
+        <div class="grid_3">
+        	<a href="#" class="twitter">Twitter</a>
+            <a href="#" class="facebook">Facebook</a>
+        </div>
+        
+        
+    </div>
+</div>
+<!--End Footer-->
+
+</body>
+</html>
